@@ -35,10 +35,11 @@ h1 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  max-width: 1000px;
 }
 
 .storybox {
-    width: 275px;
+    width: 300px;
     height: 350px;
     margin-bottom: 20px;
     border: 3px dotted black;
@@ -47,5 +48,9 @@ h1 {
 .storybox:hover {
     cursor: pointer;
 }
-}
 
+img {
+  height: 225px;
+  width: 225px;
+  padding: 25px 5px;
+}
