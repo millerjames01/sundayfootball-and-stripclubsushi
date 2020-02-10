@@ -3,14 +3,18 @@ body {
   margin: 0;
 }
 
-section:children {
+section {
+  padding: 20px;
+}
+
+section:child {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 0.25em;
 }
 
 section:nth-child(even) {
-  background: gray;
+  background: #eee;
 }
 
 h1, h2, h3, h4 {
