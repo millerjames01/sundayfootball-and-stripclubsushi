@@ -34,7 +34,7 @@ h1 {
 #storylist {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 1000px;
 }
 
@@ -52,5 +52,5 @@ h1 {
 img {
   height: 225px;
   width: 225px;
-  padding: 25px 5px;
+  padding: 0px 37.5px;
 }
