@@ -48,6 +48,14 @@ h1 {
 
 .storybox:hover {
     cursor: pointer;
+    transform: scale(1.05);
+}
+
+.storybox:hover img.static {
+    display: none;
+}
+.storybox:hover img.moving {
+    display: block;
 }
 
 img {
@@ -73,16 +81,6 @@ p {
 a {
   color: black;
   text-decoration: none;
-}
-
-.storybox:hover {
-  img.static {
-    display: none;
-  }
-  img.moving {
-    display: block;
-  }
-  transform: scale(1.05);
 }
 
 .storybox img.moving {
