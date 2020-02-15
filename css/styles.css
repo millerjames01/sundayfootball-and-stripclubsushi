@@ -46,7 +46,7 @@ h1 {
     transition: all .2s ease-in-out;
     display: flex;
     flex-direction: column;
-    justify-contents: space-around;
+    justify-content: space-around;
 }
 
 .storybox:hover {
@@ -79,6 +79,7 @@ p {
     padding: 10px 0px;
     margin: 0px 20px;
     font-style: italic;
+    border-top: 1px solid black;
 }
 
 a {
