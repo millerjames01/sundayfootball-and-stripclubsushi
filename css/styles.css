@@ -10,6 +10,10 @@ section {
   padding: 0 0.25em 0.5em 0.25em
 }
 
+#cover img {
+  display: block;
+}
+
 section > * {
   max-width: 800px;
   margin: 0 auto;
@@ -61,7 +65,7 @@ h1 {
     display: block;
 }
 
-img {
+.storybox img {
   height: 225px;
   width: 225px;
   margin: 0px 37.5px;
