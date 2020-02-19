@@ -1,4 +1,5 @@
 #cover {
+  margin-top: 100px;
   padding-bottom: 0px;
 }
 
@@ -38,7 +39,6 @@ section {
 .nav .back, .nav .next {
   font-style: italic;
   text-align: justify;
-  padding:20px;
   width:200px;
 }
 
