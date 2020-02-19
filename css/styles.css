@@ -6,24 +6,10 @@ section {
   padding: 20px 10px 50px 10px;
 }
 
-#cover > h1:first-child {
-  padding: 0 0.25em 0.5em 0.25em
-}
-
-#cover img {
-  display: block;
-  max-width: 700px;
-  width: 100%;
-}
-
 section > * {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 0.25em;
-}
-
-section:nth-child(even) {
-  background: #eee;
 }
 
 h1, h2, h3, h4 {
@@ -37,55 +23,9 @@ h1 {
   padding: 0.5em 0.25em;
 }
 
-#storylist {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  max-width: 1000px;
-}
-
-.storybox {
-    width: 300px;
-    height: 400px;
-    margin-bottom: 20px;
-    border: 3px dotted black;
-    transition: all .2s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.storybox:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-}
-
-.storybox:hover img.static {
-    display: none;
-}
-.storybox:hover img.moving {
-    display: block;
-}
-
-.storybox img {
-  height: 225px;
-  width: 225px;
-  margin: 0px 37.5px;
-}
-
 p {
     line-height: 1.5;
     margin-bottom: 1em;
-}
-
-.storybox p {
-    font-size: 12px;
-    line-height: 1.4;
-    text-align: center;
-    padding: 10px 0px;
-    margin: 0px 20px;
-    font-style: italic;
-    border-top: 1px solid black;
 }
 
 a {
@@ -93,7 +33,7 @@ a {
   text-decoration: none;
 }
 
-.storybox img.moving {
-  display: none;
-}
 
+.marker {
+  font-family: 'Permanent Marker', cursive;
+}
