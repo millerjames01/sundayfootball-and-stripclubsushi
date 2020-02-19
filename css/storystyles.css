@@ -17,3 +17,7 @@
 .nav .next::after {
   content: "&#8250;";
 }
+
+.story h3 {
+  margin-bottom: 1em;
+}
