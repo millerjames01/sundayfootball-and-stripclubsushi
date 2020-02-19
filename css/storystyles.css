@@ -33,11 +33,17 @@ section {
   line-height: 100px;
 }
 
-.nav .back, .nav .after {
-  text-decoration: italic;
+.nav .back, .nav .next {
+  font-style: italic;
   text-align: justify;
   padding:20px;
   width:200px;
+}
+
+.nav p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 #story h3 {
