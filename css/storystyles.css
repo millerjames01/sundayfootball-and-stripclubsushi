@@ -7,15 +7,22 @@
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  height:60px;
 }
 
 .nav .back::before {
-  content: "&#8249;";
+  content: "\2039";
+  font-size: 40px;
+  line-height:60px;
+  float:left;
 }
 
 .nav .next::after {
-  content: "&#8250;";
+  content: "\203A";
+  float:right;
+  font-size: 40px;
+  line-height: 60px;
 }
 
 #story h3 {
