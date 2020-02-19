@@ -33,7 +33,7 @@ section {
   line-height: 100px;
 }
 
-.nav back, .nav after {
+.nav .back, .nav .after {
   text-decoration: italic;
   text-align: justify;
   padding:20px;
