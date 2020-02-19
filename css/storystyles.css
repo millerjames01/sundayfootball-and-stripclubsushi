@@ -1,3 +1,11 @@
+#cover {
+  padding-bottom: 0px;
+}
+
+section {
+  padding: 20px 10px;
+}
+
 #cover img {
   display: block;
   max-width: 450px;
@@ -8,13 +16,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height:60px;
+  height:10px;
 }
 
 .nav .back::before {
   content: "\2039";
   font-size: 40px;
-  line-height:60px;
+  line-height:100px;
   float:left;
 }
 
@@ -22,7 +30,14 @@
   content: "\203A";
   float:right;
   font-size: 40px;
-  line-height: 60px;
+  line-height: 100px;
+}
+
+.nav back, .nav after {
+  text-decoration: italic;
+  text-align: justify;
+  padding:20px;
+  width:200px;
 }
 
 #story h3 {
