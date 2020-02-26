@@ -22,7 +22,7 @@ section:nth-child(even) {
 .storybox {
     width: 300px;
     height: 400px;
-    margin-bottom: 20px;
+    margin: 0px 5px 20px 5px;
     border: 3px dotted black;
     transition: all .2s ease-in-out;
     display: flex;
@@ -63,4 +63,40 @@ section:nth-child(even) {
     border-top: 1px solid black;
 }
 
+#extras {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
 
+.extra {
+  border: 1px solid black;
+  width: 225px;
+  height: 175px;
+  margin: 0px 10px 20px 10px;
+  text-align: center;
+  padding: 5px;
+}
+
+.extra h3 {
+    width: fit-content;
+    background-color: #eee;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20.5px;
+    margin-top: -16px;
+    padding: 0px 20px;
+}
+
+.extra a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.extra p {
+  margin-top: 4px;
+  font-style: italic;
+  font-size: 12px;
+  line-height:1.25em;
+}
